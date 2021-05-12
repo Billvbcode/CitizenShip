@@ -1,0 +1,21 @@
+Show Merlin
+Play Merlin GetAttention
+MoveTo Merlin 300  500
+Play Merlin Greet
+Say Merlin Hello Anne, my name is Merlin.
+Show Peedy
+MoveRight Peedy Merlin
+Play Merlin GestureLeft
+Say Merlin And this is John.
+Play Merlin Confused
+Say Merlin We have a problem.
+Say Merlin We don't know how old you are.
+Play Merlin DontRecognize
+Say Merlin  Would you please tell us your age 
+Say Merlin  So that we may wish you a proper birthday?
+Say Peedy I am eight years old
+Size Peedy 3
+Say Peedy And I am getting bigger
+Say Merlin We hope you had a Happy Birthday!
+Say Merlin Happy Birthday from the whole gang.
+Hide Merlin 

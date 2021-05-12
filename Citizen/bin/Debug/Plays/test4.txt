@@ -1,0 +1,4 @@
+Show Genie
+MoveTo Genie 738  351
+Show Merlin
+MoveUp Merlin Genie

@@ -1,0 +1,5 @@
+Show Merlin
+Play Merlin GetAttention
+MoveTo Merlin 300  500
+Show Peedy
+MoveLeft Peedy Merlin

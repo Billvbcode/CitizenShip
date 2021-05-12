@@ -1,0 +1,12 @@
+Show Peedy
+Play Peedy Announce
+Say Peedy I like to play
+MoveTo Peedy 376  257
+MoveTo Peedy 13  275
+Play Peedy Pleased
+Say Peedy Oh. I love Playing !!!
+MoveTo Peedy 4  77
+MoveTo Peedy 429  246
+MoveTo Peedy 181  132
+MoveTo Peedy 525  408
+Play Peedy Congratulate

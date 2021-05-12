@@ -1,0 +1,7 @@
+Show Merlin
+Play Merlin GetAttention
+MoveTo Merlin 300  500
+Play Merlin Greet
+Say Merlin Hello Anne, my name is Merlin.
+Show Peedy
+Hide Merlin 

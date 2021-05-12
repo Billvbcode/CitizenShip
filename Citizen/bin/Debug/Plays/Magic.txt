@@ -1,0 +1,11 @@
+Show Merlin
+MoveTo Merlin 50  50
+Say Merlin I will do some magic.
+Show Genie
+MoveTo Genie 300  500
+MoveRight Merlin Genie
+Play Merlin GestureRight
+Say Merlin Ala peanut butter sandwich!
+Play Merlin Domagic2
+Hide Genie 
+Say Merlin I did it
