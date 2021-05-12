@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8721B2E0-6886-49D5-B5EF-7296E2D59993}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Citizen.My.MyApplication</StartupObject>
+    <RootNamespace>Citizen</RootNamespace>
+    <AssemblyName>Citizen</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Citizen.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Citizen.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>CTRUSA.ICO</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsMove.vb" />
+    <Compile Include="ClsQuestion.vb" />
+    <Compile Include="ClsWhere.vb" />
+    <Compile Include="ClsWord4A.vb" />
+    <Compile Include="ClsWord4B.vb" />
+    <Compile Include="ClsWord4C.vb" />
+    <Compile Include="ClsWord5A.vb" />
+    <Compile Include="ClsWord5B.vb" />
+    <Compile Include="ClsWord5C.vb" />
+    <Compile Include="ClsWords.vb" />
+    <Compile Include="ClsWords4.vb" />
+    <Compile Include="ClsWords5.vb" />
+    <Compile Include="ClsWords6.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmABC.Designer.vb">
+      <DependentUpon>FrmABC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmABC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBearDunk.Designer.vb">
+      <DependentUpon>FrmBearDunk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBearDunk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBook.Designer.vb">
+      <DependentUpon>FrmBook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChoose.Designer.vb">
+      <DependentUpon>FrmChoose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChoose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCitizen.Designer.vb">
+      <DependentUpon>FrmCitizen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCitizen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJoke.Designer.vb">
+      <DependentUpon>FrmJoke.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJoke.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemory.Designer.vb">
+      <DependentUpon>FrmMemory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMemory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.vb">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRacevb.Designer.vb">
+      <DependentUpon>FrmRacevb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRacevb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSnakevb.Designer.vb">
+      <DependentUpon>FrmSnakevb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSnakevb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStory1.Designer.vb">
+      <DependentUpon>FrmStory1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStory1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTest.Designer.vb">
+      <DependentUpon>FrmTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWord.Designer.vb">
+      <DependentUpon>FrmWord.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWord.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmABC.resx">
+      <DependentUpon>FrmABC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBearDunk.resx">
+      <DependentUpon>FrmBearDunk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBook.resx">
+      <DependentUpon>FrmBook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChoose.resx">
+      <DependentUpon>FrmChoose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCitizen.resx">
+      <DependentUpon>FrmCitizen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJoke.resx">
+      <DependentUpon>FrmJoke.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemory.resx">
+      <DependentUpon>FrmMemory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRacevb.resx">
+      <DependentUpon>FrmRacevb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSnakevb.resx">
+      <DependentUpon>FrmSnakevb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStory1.resx">
+      <DependentUpon>FrmStory1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTest.resx">
+      <DependentUpon>FrmTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWord.resx">
+      <DependentUpon>FrmWord.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ARROW_RL.CUR" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARROW_RL.CUR" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CTRUSA.ICO" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
