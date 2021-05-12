@@ -1,0 +1,26 @@
+apple
+bear
+cat
+dog
+eggs
+fish
+girl
+hat
+icecream
+jet
+kite
+leaf
+moon
+nest
+owl
+pig
+queen
+ring
+sun
+turtle
+umbrella
+vacuum
+window
+x ray
+yo yo
+zipper
